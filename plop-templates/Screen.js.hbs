@@ -1,0 +1,18 @@
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import { SafeAreaView, Text } from 'react-native';
+
+import spacingStyles from 'styles/spacing';
+import styles from './styles';
+
+const {{pascalCase name}} = () => {
+  const { t } = useTranslation();
+
+  return (
+    <SafeAreaView style={spacingStyles.mainScreen}>
+      <Text>{{pascalCase name}}</Text>
+    </SafeAreaView>
+  );
+};
+
+export default {{pascalCase name}};
