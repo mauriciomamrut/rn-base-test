@@ -1,5 +1,5 @@
 {
-  "name": "EffectusBase",
+  "name": "mauritestapp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,9 +9,9 @@
     "android:dev-release": "react-native run-android --variant=developmentrelease",
     "android:prod": "react-native run-android --variant=productiondebug",
     "android:prod-release": "react-native run-android --variant=productionrelease",
-    "ios:dev": "react-native run-ios --scheme 'EffectusBaseDev'",
-    "ios:prod": "react-native run-ios --scheme 'EffectusBaseProduction'",
-    "ios:staging": "react-native run-ios --scheme 'EffectusBaseStaging'",
+    "ios:dev": "react-native run-ios --scheme 'mauritestappDev'",
+    "ios:prod": "react-native run-ios --scheme 'mauritestappProduction'",
+    "ios:staging": "react-native run-ios --scheme 'mauritestappStaging'",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",

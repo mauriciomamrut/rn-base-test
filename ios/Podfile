@@ -24,7 +24,7 @@ if linkage != nil
 end
 
 
-target 'EffectusBase' do
+target 'Mauritestapp' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -47,7 +47,7 @@ target 'EffectusBase' do
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  target 'EffectusBaseTests' do
+  target 'MauritestappTests' do
     inherit! :complete
     # Pods for testing
   end
